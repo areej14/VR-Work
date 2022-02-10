@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class collisionDetection : MonoBehaviour
 {
-    public int mass;
     public AudioSource crashAudio;
     public GameObject objectName;
     public GameObject plane;
@@ -13,10 +12,9 @@ public class collisionDetection : MonoBehaviour
     void Start()
     {
         crashAudio = GetComponent<AudioSource>();
+    //Print Rigidbody Mass
         objectName.name = "Cube";
-     //Print Rigidbody Mass
         Rigbody = GetComponent<Rigidbody>();
-        Rigbody.mass = mass;
     //Conversion float to int
         int iValue = Mathf.CeilToInt(Rigbody.mass);
         Debug.Log(objectName.name + " mass is "+ iValue);

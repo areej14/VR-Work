@@ -933,7 +933,6 @@ Transform:
   - {fileID: 417021734}
   - {fileID: 2030828348}
   - {fileID: 904170136}
-  - {fileID: 854898266}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1013,10 +1012,10 @@ Transform:
   m_GameObject: {fileID: 854898265}
   m_LocalRotation: {x: 0.012285982, y: -0.36875802, z: 0.030949304, w: 0.92892885}
   m_LocalPosition: {x: 0.58, y: 2.03, z: 1.14}
-  m_LocalScale: {x: 0.63515, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.6351501, y: 0.50000006, z: 0.5}
   m_Children: []
-  m_Father: {fileID: 662530170}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 2.617, y: -43.24, z: 2.779}
 --- !u!82 &854898267
 AudioSource:
@@ -1127,8 +1126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0
-  tickSource: {fileID: 0}
+  crashAudio: {fileID: 0}
   objectName: {fileID: 854898265}
+  plane: {fileID: 0}
   Rigbody: {fileID: 0}
 --- !u!54 &854898269
 Rigidbody:
